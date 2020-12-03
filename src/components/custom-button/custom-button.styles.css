@@ -1,0 +1,6 @@
+button {
+  padding: 12px 23px;
+  font-size: 1rem;
+  border-radius: 25px;
+  background: hsl(136, 65%, 51%);
+}

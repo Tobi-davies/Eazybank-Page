@@ -1,0 +1,22 @@
+.article {
+  padding-top: 60px;
+}
+.article-container h1 {
+  margin-bottom: 40px;
+}
+.box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 25px;
+}
+/* .art {
+  width: 150px;
+} */
+.confetti img {
+  width: 300px;
+}
+.confetti {
+  background-image: url("../../assets/imgs/image-plane.jpg");
+  height: 200px;
+  /* width: 250px; */
+}

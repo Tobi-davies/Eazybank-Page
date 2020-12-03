@@ -1,0 +1,38 @@
+.reasons {
+  background: hsl(220, 16%, 96%);
+  /* background: hsl(0, 0%, 98%); */
+}
+.reason-container {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.reason-container h1 {
+  margin-bottom: 10px;
+  color: hsl(233, 26%, 24%);
+}
+.leverage {
+  font-size: 1.1rem;
+  width: 70%;
+  margin-bottom: 50px;
+  color: hsl(233, 8%, 62%);
+}
+.list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px;
+  border: 1px solid red;
+}
+.online {
+  /* font-size: 0.6rem; */
+  border: 1px solid blue;
+}
+.online h3 {
+  /* font-family: "Public Sans", sans-serif; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: hsl(233, 26%, 24%);
+}
+.online p {
+  font-size: 1rem;
+  color: hsl(233, 8%, 62%);
+}
