@@ -5,6 +5,7 @@ import Header from "./components/header/header";
 import IntroPage from "./components/intro-page/intro-page";
 import ReasonPage from "./components/reason-page/reason";
 import Article from "./components/article/article";
+import Footer from "./components/footer/footer";
 
 const App = () => {
   // const APP_ID = "02f830bb";
@@ -18,6 +19,7 @@ const App = () => {
       <IntroPage />
       <ReasonPage />
       <Article />
+      <Footer />
     </div>
   );
 };

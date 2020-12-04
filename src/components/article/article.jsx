@@ -11,7 +11,7 @@ const Article = () => (
       <h1> Latest Articles</h1>
       <div className="box">
         <div className="art">
-          <div className="confetti">
+          <div className="img-div currency">
             {/* <img src={currency} alt="img" /> */}
           </div>
           <div className="claire">
@@ -25,7 +25,7 @@ const Article = () => (
         </div>
 
         <div className="art">
-          <div className="confetti">
+          <div className="img-div restaurant">
             {/* <img src={restaurant} alt="" /> */}
           </div>
           <div className="claire">
@@ -39,7 +39,9 @@ const Article = () => (
         </div>
 
         <div className="art">
-          <div className="confetti">{/* <img src={plane} alt="img" /> */}</div>
+          <div className="img-div plane">
+            {/* <img src={plane} alt="img" /> */}
+          </div>
           <div className="claire">
             <span>By Wilson Hutton</span>
             <h3>Take your Easybank card wherever you go</h3>
@@ -52,7 +54,7 @@ const Article = () => (
         </div>
 
         <div className="art">
-          <div className="confetti">
+          <div className="img-div confetti">
             {/* <img src={confetti} alt="img" /> */}
           </div>
           <div className="claire">

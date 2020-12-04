@@ -1,5 +1,6 @@
 .article {
-  padding-top: 60px;
+  padding: 60px 0 100px 0;
+  background: hsl(0, 0%, 98%);
 }
 .article-container h1 {
   margin-bottom: 40px;
@@ -7,16 +8,56 @@
 .box {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 25px;
+  grid-gap: 20px;
 }
 /* .art {
   width: 150px;
 } */
-.confetti img {
+/* .confetti img {
   width: 300px;
+} */
+.art {
+  border-radius: 50px;
+}
+.art .img-div {
+  height: 200px;
+  background-size: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 .confetti {
-  background-image: url("../../assets/imgs/image-plane.jpg");
+  background-image: url("../../assets/imgs/image-confetti.jpg");
   height: 200px;
   /* width: 250px; */
+}
+.plane {
+  background-image: url("../../assets/imgs/image-plane.jpg");
+}
+.restaurant {
+  background-image: url("../../assets/imgs/image-restaurant.jpg");
+}
+.currency {
+  background-image: url("../../assets/imgs/image-currency.jpg");
+}
+.claire {
+  padding: 18px 18px 18px 18px;
+  background: #fff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.claire span {
+  font-size: 0.95rem;
+  color: hsl(233, 8%, 62%);
+
+  /* padding-bottom: 25px; */
+}
+.claire h3 {
+  /* font-weight: ; */
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: hsl(233, 26%, 24%);
+}
+.claire p {
+  font-size: 0.98rem;
+  color: hsl(233, 8%, 62%);
 }
