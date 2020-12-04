@@ -3,4 +3,5 @@ button {
   font-size: 1rem;
   border-radius: 25px;
   background: hsl(136, 65%, 51%);
+  color: white;
 }

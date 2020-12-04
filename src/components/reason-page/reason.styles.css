@@ -19,7 +19,7 @@
 .list {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 30px;
+  grid-gap: 25px;
   border: 1px solid red;
 }
 .online {
@@ -33,7 +33,7 @@
   color: hsl(233, 26%, 24%);
 }
 .online p {
-  font-size: 1rem;
-  line-height: 25px;
+  font-size: 0.96rem;
+  line-height: 24px;
   color: hsl(233, 8%, 62%);
 }

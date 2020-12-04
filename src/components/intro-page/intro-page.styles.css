@@ -2,7 +2,9 @@
   background-image: url("../../assets/imgs/bg-intro-desktop.svg");
   height: 90vh;
   background-position: right top;
-
+  background-color: hsl(233, 8%, 62%);
+  background-color: hsl(220, 16%, 96%);
+  background-color: hsl(0, 0%, 98%);
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 90%;
