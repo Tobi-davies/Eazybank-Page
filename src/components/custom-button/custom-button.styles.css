@@ -1,7 +1,22 @@
-button {
+.custom {
   padding: 12px 23px;
   font-size: 1rem;
   border-radius: 25px;
   background: hsl(136, 65%, 51%);
+  background-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
   color: white;
+}
+
+/* - Dark Blue: hsl(233, 26%, 24%)
+- Lime Green: hsl(136, 65%, 51%)
+- Bright Cyan: hsl(192, 70%, 51%) */
+
+@media (max-width: 880px) {
+  .hide {
+    display: none;
+  }
 }

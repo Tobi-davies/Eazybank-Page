@@ -24,4 +24,30 @@
 .nav-link {
   font-size: 1.1rem;
   padding: 0px 10px;
+  color: hsl(233, 8%, 62%);
+}
+.menu-btn {
+  display: flex;
+  align-items: center;
+  background: transparent;
+  outline: none;
+  cursor: pointer;
+  /* display: none; */
+}
+.burger,
+.close {
+  display: none;
+}
+
+@media (max-width: 880px) {
+  .nav-links {
+    display: none;
+  }
+  /* .menu-btn {
+    display: flex;
+  } */
+  .showclose,
+  .showburger {
+    display: flex;
+  }
 }

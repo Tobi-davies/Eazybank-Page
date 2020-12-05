@@ -1,0 +1,22 @@
+.mobilenav {
+  position: absolute;
+  top: 30px;
+  width: 85%;
+  /* height: 400px; */
+  text-align: center;
+  /* border: 1px solid green; */
+  background: #fff;
+  box-shadow: 20px 20px 150px 300px rgba(0, 0, 0, 0.3);
+  border-radius: 7px;
+  display: none;
+}
+.mobile-links {
+  padding: 15px;
+}
+.mobile-link {
+  padding: 15px;
+  font-size: 1.3rem;
+}
+.reveal {
+  display: block;
+}

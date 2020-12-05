@@ -1,9 +1,9 @@
 import React from "react";
 import "./article.styles.css";
-import confetti from "../../assets/imgs/image-confetti.jpg";
-import currency from "../../assets/imgs/image-currency.jpg";
-import plane from "../../assets/imgs/image-plane.jpg";
-import restaurant from "../../assets/imgs/image-restaurant.jpg";
+// import confetti from "../../assets/imgs/image-confetti.jpg";
+// import currency from "../../assets/imgs/image-currency.jpg";
+// import plane from "../../assets/imgs/image-plane.jpg";
+// import restaurant from "../../assets/imgs/image-restaurant.jpg";
 
 const Article = () => (
   <div className="article">

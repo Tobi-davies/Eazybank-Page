@@ -17,7 +17,7 @@
   width: 300px;
 } */
 .art {
-  border-radius: 50px;
+  /* border-radius: 50px;s */
 }
 .art .img-div {
   height: 200px;
@@ -60,4 +60,24 @@
 .claire p {
   font-size: 0.98rem;
   color: hsl(233, 8%, 62%);
+}
+
+@media (max-width: 1000px) {
+  .box {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+  }
+  .claire {
+    height: 200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .article-container h1 {
+    text-align: center;
+  }
+  .box {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
 }

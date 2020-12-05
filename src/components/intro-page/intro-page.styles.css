@@ -1,16 +1,17 @@
 .intro {
   background-image: url("../../assets/imgs/bg-intro-desktop.svg");
   height: 90vh;
+  position: relative;
   background-position: right top;
-  background-color: hsl(233, 8%, 62%);
-  background-color: hsl(220, 16%, 96%);
+  /* background-color: hsl(233, 8%, 62%);
+  background-color: hsl(220, 16%, 96%); */
   background-color: hsl(0, 0%, 98%);
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 90%;
   background-position-x: 600px;
   background-position-y: -250px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
   /* overflow-x: hidden; */
 }
 .intro-container {
@@ -38,10 +39,32 @@
 }
 
 .left h1 {
-  font-size: 2.5rem;
+  font-size: 2.8rem;
   padding-bottom: 20px;
+  font-weight: 500;
+  width: 87%;
+  color: hsl(233, 26%, 24%);
 }
 .left p {
   font-size: 1.1rem;
   margin-bottom: 30px;
+  color: hsl(233, 8%, 62%);
+  line-height: 23px;
+  width: 83%;
+}
+
+@media (max-width: 1200px) {
+  .intro {
+    /* background-position: right top;
+    background-color: hsl(0, 0%, 98%);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 90%; */
+    background-position-x: 500px;
+    background-position-y: -169px;
+  }
+  .phones {
+    width: 137%;
+    transform: translateX(18px) translateY(-100px);
+  }
 }
