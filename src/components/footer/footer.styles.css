@@ -7,6 +7,10 @@
   padding-right: 14px;
   font-size: 1.2rem;
 }
+.icon i:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
+}
 .footer-container {
   display: flex;
   justify-content: space-between;
@@ -30,6 +34,11 @@
 .foot3 li {
   /* padding: 10px 0; */
   margin-bottom: 15px;
+}
+.foot2 li:hover,
+.foot3 li:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
 }
 .second-foot {
   /* text-align: right; */

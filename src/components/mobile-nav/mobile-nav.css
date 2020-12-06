@@ -17,8 +17,11 @@
   padding: 15px;
   font-size: 1.3rem;
 }
-.reveal {
-  display: block;
+
+@media (max-width: 880px) {
+  .reveal {
+    display: block;
+  }
 }
 
 @media (max-width: 700px) {

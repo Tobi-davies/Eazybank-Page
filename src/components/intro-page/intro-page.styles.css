@@ -53,6 +53,9 @@
   line-height: 23px;
   width: 83%;
 }
+/* .mobilenav {
+  display: none;
+} */
 
 @media (max-width: 1200px) {
   .intro {

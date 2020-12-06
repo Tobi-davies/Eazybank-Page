@@ -16,9 +16,7 @@
 /* .confetti img {
   width: 300px;
 } */
-.art {
-  /* border-radius: 50px;s */
-}
+
 .art .img-div {
   height: 200px;
   background-size: cover;
@@ -56,6 +54,10 @@
   margin-top: 5px;
   margin-bottom: 10px;
   color: hsl(233, 26%, 24%);
+}
+.claire h3:hover {
+  color: hsl(136, 65%, 51%);
+  cursor: pointer;
 }
 .claire p {
   font-size: 0.98rem;

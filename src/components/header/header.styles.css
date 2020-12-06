@@ -20,11 +20,27 @@
 }
 .nav-links {
   display: flex;
+  /* align-items: center; */
+  /* height: 10vh; */
 }
 .nav-link {
   font-size: 1.1rem;
   padding: 0px 10px;
   color: hsl(233, 8%, 62%);
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid red; */
+}
+.nav-link:hover {
+  cursor: pointer;
+  border-bottom: 4px solid;
+  border-image: linear-gradient(
+    to right,
+    hsl(136, 65%, 51%),
+    hsl(192, 70%, 51%)
+  );
+  border-image-slice: 1;
 }
 .menu-btn {
   display: flex;
