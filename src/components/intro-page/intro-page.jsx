@@ -1,6 +1,5 @@
 import React from "react";
 import CustomButton from "../custom-button/custom-button";
-// import { ReactComponent as Phones } from "../../assets/imgs/image-mockups.png";
 import phones from "../../assets/imgs/image-mockups.png";
 import "./intro-page.styles.css";
 import Mobilenav from "../mobile-nav/mobile-nav";
@@ -20,7 +19,6 @@ const IntroPage = ({ toggle }) => (
         </div>
       </div>
       <div className="right">
-        {/* <Phones /> */}
         <div>
           <img src={phones} alt="phones" className="phones" />
         </div>

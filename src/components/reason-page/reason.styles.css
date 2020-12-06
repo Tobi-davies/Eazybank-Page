@@ -1,6 +1,5 @@
 .reasons {
   background: hsl(220, 16%, 96%);
-  /* background: hsl(0, 0%, 98%); */
 }
 .reason-container {
   padding-top: 80px;
@@ -21,14 +20,8 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 25px;
-  /* border: 1px solid red; */
-}
-.online {
-  /* font-size: 0.6rem; */
-  /* border: 1px solid blue; */
 }
 .online h3 {
-  /* font-family: "Public Sans", sans-serif; */
   padding-top: 15px;
   padding-bottom: 15px;
   color: hsl(233, 26%, 24%);
@@ -65,8 +58,6 @@
   .list {
     grid-template-columns: 1fr;
     grid-gap: 40px;
-    /* width: 90%;
-    margin: auto; */
   }
   .online {
     text-align: center;

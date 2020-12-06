@@ -4,16 +4,12 @@
   position: relative;
   background-position: right top;
   /* z-index: -1; */
-  /* background-color: hsl(233, 8%, 62%);
-  background-color: hsl(220, 16%, 96%); */
   background-color: hsl(0, 0%, 98%);
   background-size: contain;
   background-repeat: no-repeat;
   background-size: 90%;
   background-position-x: 600px;
   background-position-y: -250px;
-  /* border: 1px solid purple; */
-  /* overflow-x: hidden; */
 }
 .intro-container {
   display: flex;
@@ -21,17 +17,13 @@
 
 .phones {
   width: 127%;
-  /* position: relative; */
-  /* z-index: 2; */
   transform: translateX(118px) translateY(-109px);
 }
 .left,
 .right {
   width: 50%;
-  /* border: 1px solid red; */
 }
 .left {
-  /* padding-top: 100px; */
   height: 90vh;
   display: flex;
   flex-direction: column;
@@ -53,17 +45,9 @@
   line-height: 23px;
   width: 83%;
 }
-/* .mobilenav {
-  display: none;
-} */
 
 @media (max-width: 1200px) {
   .intro {
-    /* background-position: right top;
-    background-color: hsl(0, 0%, 98%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-size: 90%; */
     background-position-x: 500px;
     background-position-y: -169px;
   }
