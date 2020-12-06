@@ -18,9 +18,9 @@ ul {
   width: 80%;
   margin: auto;
 }
-.scroll {
+/* .scroll {
   overflow-y: hidden;
-}
+} */
 
 @media (max-width: 1200px) {
   .container {

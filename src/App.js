@@ -17,7 +17,7 @@ const App = () => {
   const [toggle, setToggle] = useState(true);
 
   return (
-    <div className={toggle ? "App scroll" : "App"}>
+    <div className="App">
       <Header toggler={setToggle} toggle={toggle} />
       <IntroPage toggle={toggle} />
       <ReasonPage />
