@@ -32,7 +32,7 @@
   background: transparent;
   outline: none;
   cursor: pointer;
-  /* display: none; */
+  display: none;
 }
 .burger,
 .close {
@@ -43,9 +43,9 @@
   .nav-links {
     display: none;
   }
-  /* .menu-btn {
+  .menu-btn {
     display: flex;
-  } */
+  }
   .showclose,
   .showburger {
     display: flex;

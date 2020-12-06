@@ -3,6 +3,7 @@
   height: 90vh;
   position: relative;
   background-position: right top;
+  /* z-index: -1; */
   /* background-color: hsl(233, 8%, 62%);
   background-color: hsl(220, 16%, 96%); */
   background-color: hsl(0, 0%, 98%);
@@ -27,7 +28,7 @@
 .left,
 .right {
   width: 50%;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 .left {
   /* padding-top: 100px; */
@@ -66,5 +67,69 @@
   .phones {
     width: 137%;
     transform: translateX(18px) translateY(-100px);
+  }
+}
+
+@media (max-width: 1000px) {
+  .intro {
+    background-position-x: 350px;
+    background-position-y: -139px;
+    background-size: cover;
+  }
+  .phones {
+    width: 147%;
+    transform: translateX(-5px) translateY(-100px);
+  }
+}
+
+@media (max-width: 900px) {
+  .intro {
+    height: auto;
+    background-position-x: -200px;
+    background-position-y: -450px;
+    background-size: 180%;
+  }
+  .intro-container {
+    flex-direction: column-reverse;
+    position: relative;
+    top: -235px;
+  }
+  .left,
+  .right {
+    width: 100%;
+    height: unset;
+  }
+  .right {
+  }
+  .phones {
+    width: 100%;
+    position: relative;
+    transform: translateX(0px) translateY(0px);
+  }
+  .left {
+    text-align: center;
+  }
+  .left h1 {
+    padding-bottom: 15px;
+    width: 100%;
+  }
+  .left p {
+    margin-bottom: 25px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 700px) {
+  .intro-container {
+    top: -105px;
+  }
+  .intro {
+    height: auto;
+    background-position-x: -68px;
+    background-position-y: -170px;
+    background-size: 149%;
+  }
+  .left h1 {
+    font-size: 2.1rem;
   }
 }
