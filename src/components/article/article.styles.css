@@ -10,12 +10,6 @@
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
 }
-/* .art {
-  width: 150px;
-} */
-/* .confetti img {
-  width: 300px;
-} */
 
 .art .img-div {
   height: 200px;
@@ -26,7 +20,6 @@
 .confetti {
   background-image: url("../../assets/imgs/image-confetti.jpg");
   height: 200px;
-  /* width: 250px; */
 }
 .plane {
   background-image: url("../../assets/imgs/image-plane.jpg");
@@ -46,11 +39,8 @@
 .claire span {
   font-size: 0.95rem;
   color: hsl(233, 8%, 62%);
-
-  /* padding-bottom: 25px; */
 }
 .claire h3 {
-  /* font-weight: ; */
   margin-top: 5px;
   margin-bottom: 10px;
   color: hsl(233, 26%, 24%);

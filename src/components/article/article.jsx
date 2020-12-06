@@ -1,9 +1,5 @@
 import React from "react";
 import "./article.styles.css";
-// import confetti from "../../assets/imgs/image-confetti.jpg";
-// import currency from "../../assets/imgs/image-currency.jpg";
-// import plane from "../../assets/imgs/image-plane.jpg";
-// import restaurant from "../../assets/imgs/image-restaurant.jpg";
 
 const Article = () => (
   <div className="article">
@@ -11,9 +7,7 @@ const Article = () => (
       <h1> Latest Articles</h1>
       <div className="box">
         <div className="art">
-          <div className="img-div currency">
-            {/* <img src={currency} alt="img" /> */}
-          </div>
+          <div className="img-div currency"></div>
           <div className="claire">
             <span>By Claire Robinson</span>
             <h3> Receive money in any currency with no fees</h3>
@@ -25,9 +19,7 @@ const Article = () => (
         </div>
 
         <div className="art">
-          <div className="img-div restaurant">
-            {/* <img src={restaurant} alt="" /> */}
-          </div>
+          <div className="img-div restaurant"></div>
           <div className="claire">
             <span>By Wilson Hutton</span>
             <h3> Treat yourself without worrying about money</h3>
@@ -39,9 +31,7 @@ const Article = () => (
         </div>
 
         <div className="art">
-          <div className="img-div plane">
-            {/* <img src={plane} alt="img" /> */}
-          </div>
+          <div className="img-div plane"></div>
           <div className="claire">
             <span>By Wilson Hutton</span>
             <h3>Take your Easybank card wherever you go</h3>
@@ -54,9 +44,7 @@ const Article = () => (
         </div>
 
         <div className="art">
-          <div className="img-div confetti">
-            {/* <img src={confetti} alt="img" /> */}
-          </div>
+          <div className="img-div confetti"></div>
           <div className="claire">
             <span>By Claire Robinson</span>
             <h3>Our invite-only Beta accounts are now live!</h3>
