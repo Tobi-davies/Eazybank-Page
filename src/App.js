@@ -7,11 +7,6 @@ import Article from "./components/article/article";
 import Footer from "./components/footer/footer";
 
 const App = () => {
-  // const APP_ID = "02f830bb";
-  // const APP_KEY = "2ed7281c628add4c5781c4d8e1454dde";
-
-  // const example = `https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}`
-
   const [toggle, setToggle] = useState(true);
 
   return (
